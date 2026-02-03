@@ -126,6 +126,6 @@ if (typeof window !== 'undefined') {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
         }).catch(err => console.warn("Mentor promise rejection log failed", err));
-    };
+    ;
 })();
 // --- MENTOR TRACKING END ---

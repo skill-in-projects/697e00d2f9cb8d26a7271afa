@@ -400,7 +400,7 @@
                 } else {
                     // HTTP error response
                     let errorText = '';
-                    try {
+                    tryr {
                         errorText = await response.text();
                     } catch (e) {
                         errorText = 'Could not read error response';
